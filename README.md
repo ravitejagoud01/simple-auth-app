@@ -2,8 +2,6 @@
 
 A simple yet elegant user authentication system built with **Python Flask**
 
----
-
 ## ✨ Features
 - 🔐 User Registration and Login
 - 💬 Session-based Welcome Page with Username Greeting
@@ -11,23 +9,8 @@ A simple yet elegant user authentication system built with **Python Flask**
 - 🐳 Docker Support
 - ⚠️ Friendly Error Messages on Invalid Login
 
----
-
 ## 🧱 Project Structure
-auth_app/
-├── app.py
-├── requirements.txt  
-├── templates/
-│   ├── base.html
-│   ├── login.html
-│   ├── register.html
-│   └── welcome.html
-└── users.db                 
-
----
-
-
----
+flask-auth-app/ ├── app.py ├── requirements.txt ├── Dockerfile ├── templates/ │ ├── base.html │ ├── login.html │ ├── register.html │ └── welcome.html └── users.db # Created at runtime
 
 ## 🚀 Getting Started
 ### 1. Clone the Repo
@@ -40,12 +23,10 @@ python app.py
 ```
 🔗 Visit: http://localhost:5000
 
----
-
 ## 🛠️ Tech Stack
--Backend: Python, Flask
--Frontend: HTML, Bootstrap 5
--Database: SQLite (built-in)
+Backend: Python, Flask
+Frontend: HTML, Bootstrap 5
+Database: SQLite (built-in)
 
 
 
