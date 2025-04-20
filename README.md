@@ -43,9 +43,9 @@ python app.py
 ---
 
 ## 🛠️ Tech Stack
-Backend: Python, Flask
-Frontend: HTML, Bootstrap 5
-Database: SQLite (built-in)
+-Backend: Python, Flask
+-Frontend: HTML, Bootstrap 5
+-Database: SQLite (built-in)
 
 
 
