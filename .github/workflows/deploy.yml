@@ -1,0 +1,11 @@
+name: First workflow
+
+on:
+  push
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "hello git actions!"
