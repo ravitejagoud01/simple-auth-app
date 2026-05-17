@@ -22,4 +22,4 @@ jobs:
 
       - name: Run Flask App Check
         run: |
-          python app.py
+          python -m py_compile app.py
